@@ -11,7 +11,8 @@ export default function Home() {
       </Head>
       <Card
         className="w-full md:w-[500px] !rounded-lg"
-        header="Timestamp Converter">
+        header="Timestamp Converter"
+        footer="Made with ❤">
         <List hairlines={false}>
           <ListInput
             floatingLabel
