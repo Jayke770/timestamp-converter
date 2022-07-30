@@ -5,7 +5,7 @@ import { useState } from 'react'
 export default function Home() {
   const [timestamp, settimestamp] = useState('')
   return (
-    <Page className="flex justify-center items-center p-4">
+    <Page className="flex justify-center items-center p-2">
       <Head>
         <title>Timestamp Converter</title>
       </Head>
