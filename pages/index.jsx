@@ -12,7 +12,9 @@ export default function Home() {
       <Card
         className="w-full md:w-[500px] !rounded-lg"
         header="Timestamp Converter"
-        footer="Made with ❤">
+        footer={
+          <p className="text-center">Made with ❤ from the PSI team.</p>
+        }>
         <List hairlines={false}>
           <ListInput
             floatingLabel
