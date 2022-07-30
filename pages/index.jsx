@@ -28,7 +28,7 @@ export default function Home() {
             title="Calendar Time"
             subtitle={moment(timestamp).calendar()} />
           <ListItem
-            title="Date from now"
+            title="Relative Time"
             subtitle={moment(timestamp).fromNow()} />
         </List>
       </Card>
