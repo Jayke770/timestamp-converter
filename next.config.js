@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  basePath: '/timestamp-converter',
+  basePath: '/timestamp-converter/index',
 }
 
 module.exports = nextConfig
